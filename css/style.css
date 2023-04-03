@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+}  
+
+/* CABEÇALHO*/
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#131921 ;
+    width: 100%;
+}
+.cabecalho .cabecalho-imagem-logo{
+    width: 250px;
+    height: 60px;
+    border-radius:0px; 
+    margin-left: 20px; 
+}
+.cabecalho .cabecalho-imagem-logo:hover{
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+.cabecalho .cabecalho-caixa-busca{
+    background-color: white;
+    border-radius: 7px;
+    width: 301px;
+    height: 35px;   
+}
+.cabecalho-caixa-busca .txtBusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 14px;
+    border: none;
+    height: 35px;
+    width: 215px;   
+}
+.cabecalho-caixa-busca .btnBusca{
+    border: none;
+    float: right;
+    height: 35px;
+    border-radius: 0 5px 5px 0;
+    width: 80px;
+    font-weight: bold;
+    background:#e79e00;
+    
+}
+.cabecalho-caixa-busca .btnBusca:hover{
+    background-color: #e2ae3d;
+    width: 80px;
+    height: 35px;
+    padding: 2px;
+
+}
+.cabecalho .cabecalho-imagens-SM .cabecalho-instagram{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color:azure;
+    border-radius: 5px;   
+}
+.cabecalho .cabecalho-imagens-SM .cabecalho-whatsapp{
+    width: 40px;
+    height: 40px;  
+}
+
+/*NAVEGADOR*/
+
+.navegador{
+   background-color:#232f3e;
+   font-family: "Amazon Ember", Arial, sans-serif;
+   width: 100%;
+   padding: 10px;
+   display:flow-root;
+   justify-content: space-between;
+   
+}
+.navegador .navegador-menu-item{
+    
+    color: aliceblue;
+    margin-left: 20px;
+ 
+              
+}
+.navegador .navegador-menu-item:hover{
+    border: 1px solid white; 
+    padding: 8px;
+}
+.navegador .icon-botao{
+    width: 23px;
+    height: 14px;
+    
+}
+.navegador .navegador-botao{
+    padding: 10px;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #232f3e;
+    
+       
+}
+.navegador .navegador-botao:hover{  
+    border: 1px solid white; 
+    border-radius: 1px;
+}
+
+/*CONTEUDO*//*/*
+
+/*PRODUTOS*/
+
+.conteudo{
+    background-image: linear-gradient(0deg,white 10%,rgb(0, 0, 0) 90%);
+    height: 3000px;
+    width: 100%;
+    padding: 1px;   
+}
+.conteudo .conteudo-produtos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px; 
+    width: 100%;
+}
+.conteudo .titulo-produtos{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+.conteudo .texto-produtos{
+    color: black;
+    font-size: 20px;
+    margin-left:40px;
+    margin-top: 20px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.conteudo .img-produtos{
+    width: 260px;
+    height: 260px;
+    margin: 20px
+}
+.conteudo .link-produto{
+    color: #4c7ab1;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size:small;
+    position:relative;
+    margin-left: 15px;
+}
+.conteudo .conteudo-produto1{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}
+.conteudo .conteudo-produto2{
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;  
+}
+.conteudo .conteudo-produto3{
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;  
+}
+.conteudo .conteudo-produto3{
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;  
+}
+.conteudo .texto-produtos2{
+
+    font-size: 20px;
+    color: black;
+    margin-top: 1px;
+    display:flex;
+
+
+}
+/*OFERTAS*/
+
+.conteudo .conteudo-oferta{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin: 15px;
+    height: 300px;
+}
+.conteudo .conteudo-oferta-produtos{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-color: #131921;
+    border: none;
+    border-radius: 125px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+}
+.conteudo .conteudo-oferta-produto1{
+    width: 130px;
+    height: 120px;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 40px;   
+}
+.conteudo .conteudo-oferta-produto2{
+
+    width: 140px;
+    height: 120px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left:30px ;  
+}
+.conteudo .conteudo-oferta-produto3{
+
+    width: 130px;
+    height: 130px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left:30px ;  
+}
+.conteudo .conteudo-oferta-produto4{
+    
+    width: 130px;
+    height: 140px;
+    align-items: center;
+    margin-top: 25px;
+    margin-left:35px ;   
+}
+/* MAIS VENDIDOS */
+.conteudo .conteudo-mais{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin: 15px;
+    height: 300px;
+}
+.conteudo .conteudo-mais-produtos{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-color: #131921;
+    border: none;
+    border-radius: 125px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.conteudo .conteudo-mais-produto1{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin-top: 25px;
+    margin-left:10px ;  
+}
+.conteudo .conteudo-mais-produto2{
+    width: 130px;
+    height: 120px;
+    margin-top: 44px;
+    margin-left:40px ;   
+}
+.conteudo .conteudo-mais-produto3{
+    width: 130px;
+    height: 130px;
+    margin-top: 40px;
+    margin-left: 35px ;
+}
+.conteudo .conteudo-mais-produto4{
+    width: 170px;
+    height: 60px; 
+    margin-top: 70px;
+    margin-left: 20px ;  
+}
+.rodape{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    background-color:#004960;
+    height: 100%; 
+    width: 100%;
+    text-align: center;
+    color: #ffffff;   
+}
+.area-botao-voltar{
+    
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    height: 30px;   
+}
+.rodape .botao-voltar{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: bold;
+}
+.rodape .rodape-informacoes-autorais-texto{
+    margin-top: 2px;
+    color: #ffffff;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;     
+}
+.rodape .rodape-informacoes-final{
+    background-color: #131921;
+    color: aliceblue;
+    margin: 0;   
+}
